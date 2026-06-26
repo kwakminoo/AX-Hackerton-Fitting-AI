@@ -1,0 +1,30 @@
+{
+  "name": "fitting-ai",
+  "version": "1.0.0",
+  "description": "Virtual try-on assistant powered by Replicate IDM-VTON.",
+  "author": {
+    "name": "kwakm"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fitting",
+    "try-on",
+    "fashion",
+    "replicate"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fitting AI",
+    "shortDescription": "Generate virtual clothing try-on results.",
+    "longDescription": "Use a human photo and garment photo with the Replicate cuuupid/idm-vton API to preview a virtual fitting result.",
+    "developerName": "kwakm",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Run Fitting AI for a person and clothing image"
+    ]
+  }
+}
